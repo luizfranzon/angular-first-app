@@ -1,0 +1,7 @@
+.warningAlert {
+  background-color: rgb(255, 75, 75);
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 8px;
+}

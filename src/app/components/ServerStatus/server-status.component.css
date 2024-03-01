@@ -1,0 +1,15 @@
+.successAlert {
+  background-color: rgb(41, 209, 83);
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.warningAlert {
+  background-color: rgb(255, 75, 75);
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 8px;
+}
