@@ -11,7 +11,7 @@ describe('RecipeItemComponent', () => {
       declarations: [RecipeItemComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(RecipeItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
