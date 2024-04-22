@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "course-project-1": {
+    "cmp-databinding-start": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/course-project-1",
+            "outputPath": "dist/cmp-databinding-start",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -35,8 +35,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "course-project-1:build:production"
+              "buildTarget": "cmp-databinding-start:build:production"
             },
             "development": {
-              "buildTarget": "course-project-1:build:development"
+              "buildTarget": "cmp-databinding-start:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "course-project-1:build"
+            "buildTarget": "cmp-databinding-start:build"
           }
         },
         "test": {
